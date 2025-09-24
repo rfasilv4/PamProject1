@@ -1,0 +1,55 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PamProject1.Views.HomePage"
+             BackgroundColor="Black">
+
+    <Grid>
+        <!-- Conteúdo central -->
+        <VerticalStackLayout Spacing="20" Padding="40" VerticalOptions="Center">
+            <Label
+                Text="Area de Treinos Personalizados"
+                HorizontalOptions="Center"
+                FontSize="50"
+                FontAttributes="Italic"/>
+        </VerticalStackLayout>
+
+        <!-- Menu inferior -->
+        <Grid VerticalOptions="End" HorizontalOptions="Fill" BackgroundColor="White" HeightRequest="70">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Treinar -->
+            <VerticalStackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center">
+                <ImageButton Source="https://cdn-icons-png.flaticon.com/512/763/763965.png"
+                             WidthRequest="50" HeightRequest="50"
+                             BorderColor="Black" BorderWidth="3"
+                             CornerRadius="8"
+                             Clicked="OnRunClicked"/>
+                <Label Text="Treinar" TextColor="Black" FontSize="13" HorizontalOptions="Center" FontAttributes="Bold"/>
+            </VerticalStackLayout>
+
+            <!-- Cardio -->
+            <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center">
+                <ImageButton Source="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/social/cardiology-6hu2w6fhmqmp1flva2d4bo.png/cardiology-lckbubfvik08a14o0qatn4.png?_a=DATAg1AAZAA0"
+                             WidthRequest="50" HeightRequest="50"
+                             BorderColor="Black" BorderWidth="3"
+                             CornerRadius="8"
+                             Clicked="OnHeartClicked"/>
+                <Label Text="Cardio" TextColor="Black" FontSize="13" HorizontalOptions="Center" FontAttributes="Bold"/>
+            </VerticalStackLayout>
+
+            <!-- Calorias -->
+            <VerticalStackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center">
+                <ImageButton Source="https://cdn-icons-png.flaticon.com/512/483/483675.png"
+                             WidthRequest="50" HeightRequest="50"
+                             BorderColor="Black" BorderWidth="3"
+                             CornerRadius="8"
+                             Clicked="OnFireClicked"/>
+                <Label Text="Calorias" TextColor="Black" FontSize="13" HorizontalOptions="Center" FontAttributes="Bold"/>
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

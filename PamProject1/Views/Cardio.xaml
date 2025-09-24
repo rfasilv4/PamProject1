@@ -1,0 +1,29 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PamProject1.Views.Cardio"
+             BackgroundColor="White"
+             Title="Cardio">
+
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <Label Text="Treinos de Cardio"
+               FontSize="24"
+               HorizontalOptions="Center"/>
+
+        <!-- Botões de treino cardio -->
+        <Button Text="Corrida"
+                BackgroundColor="LightCoral"
+                TextColor="White"/>
+        <Button Text="Bicicleta"
+                BackgroundColor="LightGreen"
+                TextColor="White"/>
+        <Button Text="Pular Corda"
+                BackgroundColor="LightBlue"
+                TextColor="White"/>
+
+        <Label Text="Outros exercícios"
+               FontSize="18"
+               HorizontalOptions="Center"/>
+
+    </VerticalStackLayout>
+</ContentPage>

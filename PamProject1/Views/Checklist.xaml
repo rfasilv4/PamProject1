@@ -1,0 +1,25 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              x:Class="PamProject1.Views.Checklist"
+             BackgroundColor="Black">
+
+
+    <VerticalStackLayout Spacing="20" Padding="40" VerticalOptions="Center">
+
+        <Label
+            Text="AlvilioFit"
+            HorizontalOptions="Center"
+            HeightRequest="200"
+            FontSize="50"
+            FontAttributes="Italic"/>
+
+        <Entry Placeholder="Nome do Exercicio" BackgroundColor="White" TextColor="Black"/>
+        <Entry Placeholder="Séries"  BackgroundColor="White" TextColor="Black" />
+        <Button Text="Salvar" 
+        BackgroundColor="Black" 
+        TextColor="White" 
+        BorderWidth="1" 
+        BorderColor="White"
+        Clicked="OnVoltarClicked"/>
+    </VerticalStackLayout>
+</ContentPage>

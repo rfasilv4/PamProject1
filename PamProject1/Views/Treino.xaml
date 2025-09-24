@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PamProject1.Views.Treino"
+             BackgroundColor="Black">
+
+    <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="Center">
+        <Button Text="Upper" BackgroundColor="White" TextColor="Black" Clicked="OnUpperClicked"/>
+        <Button Text="Lower" BackgroundColor="White" TextColor="Black" Clicked="OnLowerClicked"/>
+        <Button Text="Adicionar treino" BackgroundColor="Black" TextColor="White" Clicked="OnAdicionarClicked" BorderWidth="2" BorderColor="White"/>
+        <Button Text="Volta" BackgroundColor="Black" TextColor="White" Clicked="OnVoltaClicked" BorderWidth="2" BorderColor="White" HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>
