@@ -4,9 +4,9 @@
              BackgroundColor="Black">
 
     <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="Center">
-        <Button Text="Upper" BackgroundColor="White" TextColor="Black" Clicked="OnUpperClicked"/>
-        <Button Text="Lower" BackgroundColor="White" TextColor="Black" Clicked="OnLowerClicked"/>
-        <Button Text="Adicionar treino" BackgroundColor="Black" TextColor="White" Clicked="OnAdicionarClicked" BorderWidth="2" BorderColor="White"/>
-        <Button Text="Volta" BackgroundColor="Black" TextColor="White" Clicked="OnVoltaClicked" BorderWidth="2" BorderColor="White" HorizontalOptions="Center"/>
+        <Button Text="Upper" BackgroundColor="White" TextColor="Black" Clicked="OnUpperClicked" CornerRadius="20"/>
+        <Button Text="Lower" BackgroundColor="White" TextColor="Black" Clicked="OnLowerClicked" CornerRadius="20"/>
+        <Button Text="Adicionar treino" BackgroundColor="Black" TextColor="White" Clicked="OnAdicionarClicked" BorderWidth="2" BorderColor="White" WidthRequest="200" CornerRadius="20"/>
+        <Button Text="Voltar" BackgroundColor="Black" TextColor="White" Clicked="OnVoltaClicked" BorderWidth="2" BorderColor="White" HorizontalOptions="Center" WidthRequest="100" CornerRadius="20"/>
     </VerticalStackLayout>
 </ContentPage>

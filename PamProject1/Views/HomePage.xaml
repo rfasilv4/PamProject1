@@ -36,7 +36,7 @@
                 <ImageButton Source="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/social/cardiology-6hu2w6fhmqmp1flva2d4bo.png/cardiology-lckbubfvik08a14o0qatn4.png?_a=DATAg1AAZAA0"
                              WidthRequest="50" HeightRequest="50"
                              BorderColor="Black" BorderWidth="3"
-                             CornerRadius="8"
+                             CornerRadius="10"
                              Clicked="OnHeartClicked"/>
                 <Label Text="Cardio" TextColor="Black" FontSize="13" HorizontalOptions="Center" FontAttributes="Bold"/>
             </VerticalStackLayout>
@@ -46,7 +46,7 @@
                 <ImageButton Source="https://cdn-icons-png.flaticon.com/512/483/483675.png"
                              WidthRequest="50" HeightRequest="50"
                              BorderColor="Black" BorderWidth="3"
-                             CornerRadius="8"
+                             CornerRadius="9"
                              Clicked="OnFireClicked"/>
                 <Label Text="Calorias" TextColor="Black" FontSize="13" HorizontalOptions="Center" FontAttributes="Bold"/>
             </VerticalStackLayout>

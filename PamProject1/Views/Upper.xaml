@@ -9,8 +9,8 @@
 
         <!-- Peito -->
         <HorizontalStackLayout Spacing="10" VerticalOptions="Start">
-            
 
+            <Image Source="https://w7.pngwing.com/pngs/514/837/png-transparent-bench-press-exercise-barbell-strength-training-barbell-angle-physical-fitness-sports-equipment.png"/>
             <Label Text="Supino Reto - 3x6-8"
                    FontSize="24"
                    VerticalOptions="Center"
